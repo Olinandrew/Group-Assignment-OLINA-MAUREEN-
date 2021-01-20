@@ -1,0 +1,308 @@
+<html>
+<head>
+	<title>Aktiviti</title>
+</head>
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 10;
+  padding: 10;
+  overflow: hidden;
+  background-color:#151B54 ;
+  position: block;
+  top: 5;
+  width: 200%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #FDD017;
+  color: black;
+}
+* {
+  box-sizing: border-box;
+}
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 2px 2px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+footer{
+		background-color:#151B54;
+		padding:10px;
+		text-align:center;
+		color:white;
+	}
+</style>
+<body>
+
+<ul>
+  <li><a href="HomePage.html">Laman Utama</a></li>
+  <li><a href="Pengenalan.html">Pengenalan</a></li>
+  <li><a href="Tentang.html">Tentang Kami</a></li> 
+  <li><a href="Penubuhan.html">Penubuhan</a></li>
+  <li><a href="Pengurusan.html">Pengurusan</a></li>
+  <li><a href="MisiVisi.html">Visi/Misi</a></li>
+  <li><a href="Aktiviti.html">Aktiviti</a></li>
+  <li><a href="Sumbangan.html">Sumbangan</a></li>
+  <li><a href="Pengumuman.html">Pengumuman</a></li>
+  <li><a href="Lokasi.html">Lokasi</a></li>   
+
+</ul>
+<div style="padding:100px;margin-top:0px;background-color:#FFDB58;height:1680px;">
+
+<h2 style="text-align:center">AKTIVITI DI RUMAH KASIH NURUL IMAN</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 12</div>
+    <img src="cap 1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 12</div>
+    <img src="cap 2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 12</div>
+    <img src="cap 3.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 12</div>
+    <img src="cap 5.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 12</div>
+    <img src="cap 6.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 12</div>
+    <img src="cap 8.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">7 / 12</div>
+    <img src="cap 9.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">8 / 12</div>
+    <img src="cap 10.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext"> 9 / 12</div>
+    <img src="cap 11.jpg" style="width:100%">
+  </div><div class="mySlides">
+
+    <div class="numbertext">10 / 12</div>
+    <img src="cap 12.jpg" style="width:100%">
+  </div><div class="mySlides">
+
+    <div class="numbertext">11 / 12</div>
+    <img src="cap 14.jpg" style="width:100%">
+  </div><div class="mySlides">
+
+    <div class="numbertext">12 / 12</div>
+    <img src="cap 15.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="cap 1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Riadah Petang">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="cap 2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Aktiviti Pelajar Wanita">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="cap 3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Aktiviti Pelajar Lelaki">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="cap 5.jpg" style="width:100%" onclick="currentSlide(4)" alt="Projek Mencipta Bangunan">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="cap 6.jpg" style="width:100%" onclick="currentSlide(5)" alt="Aktiviti Barbeku">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="cap 8.jpg" style="width:100%" onclick="currentSlide(6)" alt="Aktiviti Barbeku">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="cap 9.jpg" style="width:100%" onclick="currentSlide(7)" alt="Solat Berjemaah Pelajar Lelaki">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="cap 10.jpg" style="width:100%" onclick="currentSlide(8)" alt="Solat Berjemaah Pelajar Wanita">
+    </div>
+   <div class="column">
+      <img class="demo cursor" src="cap 11.jpg" style="width:100%" onclick="currentSlide(9)" alt="Aktiviti Barbeku">
+    </div>
+   <div class="column">
+      <img class="demo cursor" src="cap 12.jpg" style="width:100%" onclick="currentSlide(10)" alt="Riadah Petang">
+    </div>
+   <div class="column">
+      <img class="demo cursor" src="cap 14.jpg" style="width:100%" onclick="currentSlide(11)" alt="Kerja Menampal Jalan">
+    </div>
+   <div class="column">
+      <img class="demo cursor" src="cap 15.jpg" style="width:100%" onclick="currentSlide(12)" alt="Kerja Menampal Jalan">
+    </div>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+<br>   
+<audio controls autoplay>
+  <source src="audio.mp3" type="audio/mpeg">
+</audio>
+ 
+<br><br><br>
+<center>
+<footer>
+	<div class="w3-container">
+	<a href="https://www.facebook.com/rumah.nuruliman"><img src="pic1.jpg"style=width:30px;height:30px></a>
+	<a href="https://twitter.com/rumahnuruliman"><img src="pic2.jpg"style=width:30px;height:30px></a>
+	<a href="https://api.whatsapp.com/send/?phone=60165460071&text&app_absent=0"><img src="pic3.jpg"style=width:30px;height:30px></a>	
+	<a href="https://t.me/rumahnuruliman"><img src="pic4.jpg"style=width:30px;height:30px></a>
+</div>
+<br>
+	<p> Designed by Olina & Maureen </p>
+	<p> Disclaimer. This website is not an official website of 
+	    Pertubuhan Kebajikan Kasih Nurul Iman Negeri Perak.</p>
+	<p> </p><a href="aboutme.html"style=color:white> About Me ! </a> 
+</footer>
+</body>
+</html>
